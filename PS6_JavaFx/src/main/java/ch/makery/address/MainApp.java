@@ -1,6 +1,7 @@
 package ch.makery.address;
 
 import java.io.File;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.prefs.Preferences;
@@ -47,7 +48,7 @@ public class MainApp extends Application {
     public MainApp() {
         // Add some sample data
     	
-    	//TODO: ArrayList<PersonDomainModel> people should call getPersons() in PersonDAL
+    	
     	ArrayList<PersonDomainModel> people = null;
     	
     	
